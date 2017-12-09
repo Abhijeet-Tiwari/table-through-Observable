@@ -8,7 +8,7 @@ import { EmployeeService } from '../services/employee.service';
 })
 export class StartcalendarComponent implements OnInit {
   public dt: Date = new Date();
-  objetsData :  any = null;
+  objetsData :  any;
   constructor(private empservice: EmployeeService) { }
 
   public getDate(event): any {

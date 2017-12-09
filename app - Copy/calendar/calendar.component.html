@@ -9,6 +9,26 @@
         <h3>Choose your end Date:</h3>
         <input class="date-picker" name="end" type="date">
     </div>
+
     <input type="submit" class="sub" value="GO">
 </form>
-<app-table [data]="objetsData"> </app-table>
+<app-table></app-table>
+<!-- <table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>country</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of objetsData">
+            <td>{{employee.Id}}</td>
+            <td>{{employee.name}}</td>
+            <td>{{employee.email}}</td>
+            <td>{{employee.country}}</td>
+        </tr>
+
+    </tbody>
+</table> -->
